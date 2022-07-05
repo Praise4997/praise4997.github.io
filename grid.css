@@ -1,0 +1,153 @@
+ 
+
+ *{ 
+
+     margin: 0; 
+
+     padding: 0; 
+
+     box-sizing: border-box; 
+
+ } 
+
+  
+
+ body{ 
+
+     background-color: rgb(27, 36, 51); 
+
+ } 
+
+  
+
+ header{ 
+
+     width: 100%; 
+
+     background-color: rgb(17, 29, 48 ); 
+
+     position: fixed; 
+
+     top: 0; 
+
+     padding: 20px; 
+
+     font-size: 30px; 
+
+     font-weight: bold; 
+
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+     text-align: center; 
+
+ } 
+
+ header a{ 
+
+     color: white; 
+
+     margin-left: 100px; 
+
+ } 
+
+  
+
+  
+
+ main{ 
+
+     display: flex; 
+
+     align-items: center; 
+
+     justify-content: center; 
+
+     margin: 250px auto; 
+
+ } 
+
+  
+
+ section{ 
+
+     display: grid; 
+
+     grid-template-areas: 
+
+         "container1 container1 container2" 
+
+         "container3 container4 container4" 
+
+         "container3 container5 container5"; 
+
+     gap: 10px; 
+
+     padding: 10px; 
+
+      
+
+      
+
+     grid-template-columns: 220px 150px 210px; 
+
+     grid-template-rows: 180px 90px 120px; 
+
+ } 
+
+  
+
+ section > div{ 
+
+     padding: 2em; 
+
+ } 
+
+  
+
+ .item1{ 
+
+     background-color: orangered; 
+
+     grid-area: container1; 
+
+ } 
+
+  
+
+ .item2{ 
+
+     background-color: orange; 
+
+     grid-area: container2; 
+
+ } 
+
+  
+
+ .item3{ 
+
+     background-color: greenyellow; 
+
+     grid-area: container3; 
+
+ } 
+
+  
+
+ .item4{ 
+
+     background-color: blue; 
+
+     grid-area: container4; 
+
+ } 
+
+  
+
+ .item5{ 
+
+     background-color: blue; 
+
+     grid-area: container5; 
+
+ }
